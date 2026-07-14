@@ -3,5 +3,6 @@ import time
 drone = Drone()
 drone.connect()
 
+drone.take_off()
 
 time.sleep(3)
