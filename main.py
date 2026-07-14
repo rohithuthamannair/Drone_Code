@@ -6,9 +6,9 @@ drone = Drone()
 drone.connect()
 drone.take_off()
 
-drone.move_down(20)
+drone.move_left(20)
 time.sleep(2)
-drone.move_up(30)
+drone.move_right(30)
 time.sleep(2)
 
 drone.land()
