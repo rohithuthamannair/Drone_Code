@@ -11,7 +11,9 @@ drone.take_off()
 #drone.move_backward(50)
 #time.sleep(2)
 
-drone.rotate(5)
+drone.set_speed(150)
+drone.move_forward(80)
+
 
 drone.land()
 time.sleep(1)
